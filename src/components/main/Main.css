@@ -1,3 +1,18 @@
-.city{
-    font-size: 50px;
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+    padding: 15px;
+  
+    
+    
 }
+
+h1{
+    font-family: arial;
+    text-transform: uppercase;
+    
+}
+

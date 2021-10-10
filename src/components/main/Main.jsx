@@ -8,10 +8,10 @@ const Main =()=>{
 
     return(
         <>
-    <Switch>
-    <Route  path='' component={TodayForecast}/>
+<div className='main'>
+    <Route exact path='/' component={TodayForecast}/>
     <Route  path='/forecast' component={FiveDaysForecast}/>
-    </Switch>
+    </div>
         </>
     )
 

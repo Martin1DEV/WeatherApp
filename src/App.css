@@ -1,3 +1,27 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 .container{
   color: red;
-};
+  font-family: arial;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.message p{
+font-family: arial;
+font-size: 40px;
+text-align: center;
+padding: 15px;
+font-weight: bold;
+color: rgb(115, 116, 116);
+
+}
+ div.message{
+   padding: 50px;
+ }
+
+

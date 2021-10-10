@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:arial;
+    color:black;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+
+
+}
+
+
+a:hover{
+    background-color: rgb(207, 244, 245);
+    color: rgb(42, 73, 34);
+    transition: 0.3s;
+
+
+}
+
+nav{
+    width: 15vw;
+    padding: 10px;
+    margin-top: 15px;
+    min-height: 80vh;
+
+}

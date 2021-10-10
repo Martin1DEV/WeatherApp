@@ -1,4 +1,5 @@
 import React,{useContext,useState} from 'react';
+import './Header.css'
 import { AppContext } from '../../store/StoreProvider';
 
 
@@ -63,14 +64,15 @@ const Header =()=>{
 
 
     return(
-
+<>
 <header>
+   <h1>Pogoda </h1>
     <form onSubmit={handleOnClick}>
-   <h1>Pogoda</h1>
-    <input type='text' value={formCity} onChange={handleFormCityChange}/>
+    <input placeholder='Podaj nazwę miejscowości' type='text' value={formCity} onChange={handleFormCityChange}/>
     <button type='submit' >Sprawdź pogodę</button>
     </form>
 </header>
+</>
 
 
 

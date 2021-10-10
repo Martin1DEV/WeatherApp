@@ -1,0 +1,15 @@
+footer{
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(143, 143, 143);
+    color: white;
+    padding: 30px;
+    
+}
+
+footer p{
+    margin-left: 100px;
+    text-transform: capitalize;
+
+}
+

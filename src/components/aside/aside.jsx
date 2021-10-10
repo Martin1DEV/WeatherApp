@@ -1,21 +1,19 @@
-import React, {useState}  from "react";
+import React  from "react";
 import {Link} from "react-router-dom";
+import './aside.css'
 
 
 
 const Aside=()=>{
 
-    const[isMain, setIsMain]=useState(false);
-    const toggleLink=()=>{
-        setIsMain(!isMain)
-    }
+   
 
-    const content=isMain?<Link onClick={toggleLink} to=''>Prognoza na dziś</Link>:<Link  onClick={toggleLink} to='/forecast'>Pogoda na 5 dni</Link>;
-
+    
     return(
         
         <nav>
-        {content}
+         <Link  to='/'>Prognoza na dziś</Link><br/>
+        <Link  to='/forecast'>Pogoda na 5 dni</Link>
         </nav>
     )
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import './day.css';
+
 
 
 
@@ -12,7 +14,7 @@ const{temp, feels_like, pressure, humidity}=item.main;
 
         <h3>{item.dt_txt.slice(5, 16)}</h3>
         <div>
-        <img id='icon' src={`http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`} alt=''/>
+        <img id='icon' src={`http://openweathermap.org/img/wn/${item.weather[0].icon}.png`} alt=''/>
         <h2>{Math.floor(temp)} <sup>o</sup>C</h2>
         </div>
         <p>{item.weather[0].description}</p>

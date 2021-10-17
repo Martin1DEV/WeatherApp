@@ -12,7 +12,7 @@ const Aside=()=>{
     return(
         
         <nav>
-         <Link  to='/'>Prognoza na dziś</Link><br/>
+         <Link  to='/today'>Prognoza na dziś</Link><br/>
         <Link  to='/forecast'>Pogoda na 5 dni</Link>
         </nav>
     )

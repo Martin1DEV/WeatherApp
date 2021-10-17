@@ -13,7 +13,7 @@ footer p{
 
 }
 
-@media(max-width:640px){
+@media(max-width:1600px){
     footer p{
         margin-left: 0;
     }

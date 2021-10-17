@@ -1,4 +1,5 @@
 import React,{useContext,useState} from 'react';
+import {Link} from "react-router-dom";
 import './Header.css'
 import { AppContext } from '../../store/StoreProvider';
 
@@ -69,7 +70,7 @@ const Header =()=>{
    <h1>Pogoda </h1>
     <form onSubmit={handleOnClick}>
     <input placeholder='Podaj nazwę miejscowości' type='text' value={formCity} onChange={handleFormCityChange}/>
-    <button type='submit' >Sprawdź pogodę</button>
+    <button type='submit' onClick={handleOnClick}><Link to='/today'>Sprawdź pogodę</Link></button>
     </form>
 </header>
 </>

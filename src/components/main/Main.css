@@ -17,7 +17,7 @@ h1{
 }
 
 
-@media(max-width:640px){
+@media(max-width:1600px){
     div.main {
         width: 100vw;
         justify-content: center;

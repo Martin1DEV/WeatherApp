@@ -50,7 +50,7 @@ i{
     font-size: 40px;
 }
 
-@media(max-width:640px){
+@media(max-width:1600px){
 
     header{
         flex-direction: column;

@@ -16,7 +16,7 @@ p{
     font-family: arial;
 }
 
-@media(max-width:640px){
+@media(max-width:1600px){
     div.day{
         width: 95%;
         padding-bottom: 30px;

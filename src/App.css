@@ -27,4 +27,11 @@ color: rgb(115, 116, 116);
    background-color: rgb(232, 232, 232);
  }
 
+ @media(max-width:1600px){
+   .message p{
+     font-size: 30px;
+
+   }
+ }
+
 

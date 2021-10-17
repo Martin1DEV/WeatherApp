@@ -23,5 +23,8 @@ color: rgb(115, 116, 116);
  div.message{
    padding: 50px;
  }
+ #root{
+   background-color: rgb(232, 232, 232);
+ }
 
 

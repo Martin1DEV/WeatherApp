@@ -7,11 +7,19 @@
     text-align: center;
     background-color: rgb(185, 242, 242);
     margin: 10px;
+    box-shadow:7px 11px 10px  rgb(158, 158, 158) ;
 
 }
 p{
     font-size: 15px;
     text-transform: uppercase;
     font-family: arial;
+}
+
+@media(max-width:640px){
+    div.day{
+        width: 95%;
+        padding-bottom: 30px;
+    }
 }
 

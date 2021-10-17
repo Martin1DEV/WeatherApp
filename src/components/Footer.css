@@ -9,7 +9,13 @@ footer{
 
 footer p{
     margin-left: 100px;
-    text-transform: capitalize;
+    
 
+}
+
+@media(max-width:640px){
+    footer p{
+        margin-left: 0;
+    }
 }
 

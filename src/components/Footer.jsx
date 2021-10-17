@@ -8,7 +8,7 @@ const Footer=()=>{
     return(
 
         <footer>
-               <p>Kontakt: mfresh1@tlen.pl</p> 
+               <a href="https://www.marcinpyrczak.pl"><p>Kontakt:    Marcinpyrczak.pl</p></a> 
         </footer>
     )
 }
